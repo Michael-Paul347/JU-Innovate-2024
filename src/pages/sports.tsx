@@ -311,7 +311,7 @@ export default function Technical() {
   return (
     <>
       
-      <div className=" bg-dot-white/[0.2] z-50 w-[1500px]" style={{backgroundColor:"black"}}>
+      <div className=" bg-dot-white/[0.2] z-50" style={{backgroundColor:"black"}}>
       <div className="pointer-events-none inset-0  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
        <NewNavBar />
       <div className='flex flex-col text-center justify-center gap-10 mt-6'>

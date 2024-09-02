@@ -44,7 +44,7 @@ function NewNavBar() {
       >
         <Navbar.Brand href="">
           <Image
-            src="/test4.png"
+            src="/logo.png"
             width={150}
             height={150}
             alt="JECRC LOGO"
@@ -55,13 +55,13 @@ function NewNavBar() {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse className="ml-96">
-          <Navbar.Link href="/" className="team2 text-2xl">
+          <Navbar.Link href="/" className="text-white text-2xl">
             Home
           </Navbar.Link>
 
           <div className="group">
             <div className="flex justify-center items-center gap-2">
-              <Navbar.Link href="/events" className="team2 text-2xl">
+              <Navbar.Link href="/events" className="text-white text-2xl">
                 Events
               </Navbar.Link>
               <ChevronDown className="text-white" />
@@ -70,17 +70,17 @@ function NewNavBar() {
               <div className="flex gap-1">
                 <ul>
                   <li>
-                    <Navbar.Link href="/sports" className="team2 text-xl">
+                    <Navbar.Link href="/sports" className="text-white text-xl">
                       Sports
                     </Navbar.Link>
                   </li>
                   <li>
-                    <Navbar.Link href="/cultural" className="team2 text-xl">
+                    <Navbar.Link href="/cultural" className="text-white text-xl">
                       Cultural
                     </Navbar.Link>
                   </li>
                   <li>
-                    <Navbar.Link href="/technical" className="team2 text-xl">
+                    <Navbar.Link href="/technical" className="text-white text-xl">
                       Technical
                     </Navbar.Link>
                   </li>
@@ -89,16 +89,16 @@ function NewNavBar() {
             </div>
           </div>
 
-          <Navbar.Link href="/gallery" className="team2 text-2xl">
+          <Navbar.Link href="/gallery" className="text-white text-2xl">
             Gallery
           </Navbar.Link>
-          <Navbar.Link href="/ourteam" className="team2 text-2xl">
+          <Navbar.Link href="/ourteam" className="text-white text-2xl">
             Our Team
           </Navbar.Link>
-          <Navbar.Link href="/sponsors" className="team2 text-2xl">
+          <Navbar.Link href="/sponsors" className="text-white text-2xl">
             Sponsors
           </Navbar.Link>
-          <Navbar.Link href="/contactus" className="team2 text-2xl">
+          <Navbar.Link href="/contactus" className="text-white text-2xl">
             Contact Us
           </Navbar.Link>
         </Navbar.Collapse>

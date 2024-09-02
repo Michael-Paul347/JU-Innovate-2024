@@ -8,125 +8,80 @@ import { useRouter } from 'next/router'
 import NewNavBar from '@/components/NavBar';
 const images = [
     {
-        image: 'https://i.postimg.cc/3NYncKdb/image3.jpg',
+        image: 'https://i.postimg.cc/GpXThpd3/DSC-0019.jpg',
         className: 'small'
     },
     {
-        image: 'https://i.postimg.cc/rFgY7tGG/image2.jpg',
+        image: 'https://i.postimg.cc/LXhYqM8t/DSC-0320.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/NMTznJbL/image4.jpg',
+        image: 'https://i.postimg.cc/Qx77kskS/DSC-0202.jpg',
         className: 'small'
     },
     {
-        image: 'https://i.postimg.cc/j2bFYHkc/image5.jpg',
+        image: 'https://i.postimg.cc/Hk4SpFnW/DSC-0168.jpg',
         className: 'tall'
     },
     {
-        image:'https://i.postimg.cc/rpyyM478/image6.jpg',
+        image:'https://i.postimg.cc/B6y8Hwjd/DSC-2182.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/PfCxCmJJ/image7.jpg',
+        image: 'https://i.postimg.cc/d0sTYCMS/DSC-0275.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/vBSJRxwS/image8.jpg',
+        image: 'https://i.postimg.cc/WbZWydPk/DSC-0489-2.jpg',
         className: 'small'
     },
     {
-        image: 'https://i.postimg.cc/wT9GWkNT/image9.jpg',
+        image: 'https://i.postimg.cc/zDVPndtp/DSC-2823.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/BbLdJZqZ/image10.jpg',
+        image: 'https://i.postimg.cc/BbLKzGWS/DSC-4181.jpg',
         className: 'tall',
     },
     {
-        image: 'https://i.postimg.cc/Sswg76hq/image11.jpg',
+        image: 'https://i.postimg.cc/SQ38Mj8J/DSC-8396.jpg',
         className: 'small'
     },
     {
-        image: 'https://i.postimg.cc/8P7YvCgT/image12.jpg',
+        image: 'https://i.postimg.cc/0yRkgKKR/DSC-1060.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/Qxgf1KnG/image13.jpg',
+        image: 'https://i.postimg.cc/NLv5P97D/DSC-9318.jpg',
         className: 'small'
     },
     {
-        image: 'https://i.postimg.cc/rFgY7tGG/image2.jpg',
+        image: 'https://i.postimg.cc/fyG9ngZx/DSC-4264.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/8cjr5MvQ/image14.jpg',
-        className: 'small'
-    },
-    {
-        image: 'https://i.postimg.cc/KvTdVYqJ/image15.jpg',
-        className: 'small'
-    },
-    {
-        image: 'https://i.postimg.cc/C1K7VvFw/image16.jpg',
+        image: 'https://i.postimg.cc/Sx6ymQcX/DSC-1057.jpg',
         className: 'tall'
     },
     {
-        image: 'https://i.postimg.cc/66mjBN2g/image17.jpg',
-        className: 'tall'
+        image: 'https://i.postimg.cc/Lsmm5dVx/DSC-1062.jpg',
+        className: 'tall'   
     },
     {
-        image: 'https://i.postimg.cc/pdW4pJ26/image18.jpg',
+        image: 'https://i.postimg.cc/6p4yNNpg/DSC-0150.jpg',
+        className: 'tall'   
+    },
+    {
+        image: 'https://i.postimg.cc/4xbhq509/DSC-0575.jpg',
+        className: 'small'   
+    },
+    {
+        image: 'https://i.postimg.cc/BnGKmym3/DSC-8436.jpg',
+        className: 'small'   
+    },
+    {
+        image: 'https://i.postimg.cc/WpKVcqqp/DSC-0312.jpg',
         className: 'small'
-    },
-    {
-        image: 'https://i.postimg.cc/3JMn6FDD/image19.jpg',
-        className: 'tall'   
-    },
-    {
-        image: 'https://i.postimg.cc/Cx77Ryrj/image20.jpg',
-        className: 'tall'   
-    },
-    {
-        image: 'https://i.postimg.cc/zf3C3ygr/image21.jpg',
-        className: 'small'   
-    },
-    {
-        image: 'https://i.postimg.cc/GpSjjFCt/image22.jpg',
-        className: 'small'   
-    },
-    {
-        image: 'https://i.postimg.cc/gJPCGbx3/image23.jpg',
-        className: 'tall'   
-    },
-    {
-        image: 'https://i.postimg.cc/yx2XzsdH/image24.jpg',
-        className: 'small'   
-    },
-    {
-        image: 'https://i.postimg.cc/fbYP2q8y/image25.jpg',
-        className: 'tall'   
-    },
-    {
-        image: 'https://i.postimg.cc/nzzvjC9x/image26.jpg',
-        className: 'small'   
-    },
-    {
-        image: 'https://i.postimg.cc/xCwcfCKt/image27.jpg',
-        className: 'tall'   
-    },
-    {
-        image: 'https://i.postimg.cc/9XLnn7Yd/image28.jpg',
-        className: 'small'   
-    },
-    {
-        image: 'https://i.postimg.cc/PqLXCHfc/image29.jpg',
-        className: 'small'   
-    },
-
-    {
-        image: 'https://i.postimg.cc/tTtLTv6w/image30.jpg',
-        className: 'small'   
     },
 ]
 
