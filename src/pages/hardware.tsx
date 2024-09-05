@@ -92,6 +92,62 @@ export default function Technical() {
         "time": ""
       }
     },
+    {
+      "name": "",
+      "alias": "Rhythmic relay",
+      "image": 'https://i.postimg.cc/021vg5pj/rhytmic-relay-poetry.png',
+      "aboutEvent": "Unlock the power of words in our Poetry Corner, where eloquence meets emotion. Immerse yourself in the rhythmic beauty of verse, as players weave linguistic tapestries to captivate hearts and minds.",
+      "eventDetail": [
+      ""
+      ],
+      "rules": [
+        	"Round 1: In this round every participant will get an opportunity to give their best poetry performance. The time of performance will be 3 to 5 min.",
+	        "Round 2(final round): In this round every participant will get some words, based on that participants have to create a poem on the spot.",
+	        "Use of offensive language or inappropriate content is strictly prohibited.",
+	        "Keep the poetry suitable for a diverse audience.",
+	        "Dress in accordance to theme will be appreciated.",
+	        "Strictly adhere to the specified time limits for each performance.",
+	         "Violation of rules may lead to disqualification.",
+          "The decision of the judges and event organisers is final.",
+
+
+       
+      ],
+      "coordinators":{"name":'Krati Gupta: 9549692639',"name2":'Devansh	: 9680770891'},
+      "schedule": {
+        "day": "",
+        "venue": "",
+        "time": ""
+      }
+    },
+    {
+      "name": "",
+      "alias": "Rhythmic relay",
+      "image": 'https://i.postimg.cc/021vg5pj/rhytmic-relay-poetry.png',
+      "aboutEvent": "Unlock the power of words in our Poetry Corner, where eloquence meets emotion. Immerse yourself in the rhythmic beauty of verse, as players weave linguistic tapestries to captivate hearts and minds.",
+      "eventDetail": [
+      ""
+      ],
+      "rules": [
+        	"Round 1: In this round every participant will get an opportunity to give their best poetry performance. The time of performance will be 3 to 5 min.",
+	        "Round 2(final round): In this round every participant will get some words, based on that participants have to create a poem on the spot.",
+	        "Use of offensive language or inappropriate content is strictly prohibited.",
+	        "Keep the poetry suitable for a diverse audience.",
+	        "Dress in accordance to theme will be appreciated.",
+	        "Strictly adhere to the specified time limits for each performance.",
+	         "Violation of rules may lead to disqualification.",
+          "The decision of the judges and event organisers is final.",
+
+
+       
+      ],
+      "coordinators":{"name":'Krati Gupta: 9549692639',"name2":'Devansh	: 9680770891'},
+      "schedule": {
+        "day": "",
+        "venue": "",
+        "time": ""
+      }
+    },
 
   ]
 

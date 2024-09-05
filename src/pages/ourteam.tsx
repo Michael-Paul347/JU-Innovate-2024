@@ -223,7 +223,7 @@ const Ourteam = () => {
                         </div>
                     </div>
                     {/* Top Image */}
-                    <div className="flex justify-center m-10">
+                    <div className="flex justify-center m-10 ">
                         <div className="w-[400px] px-6 py-6 text-center bg--200 rounded-lg">
                             <BackgroundGradient className="rounded-[22px] max-w-sm p-2 sm:p-1 bg-white bg-zinc-900">
                                 <Image className="mx-auto rounded-[22px] h-50 w-50 transition-transform duration-300 transform hover:scale-105 cursor-pointer" src={teamDetails[0].image} alt="author avatar" width={400} height={100} />
