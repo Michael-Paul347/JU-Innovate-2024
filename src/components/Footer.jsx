@@ -41,7 +41,7 @@ const Footer = () => {
                     
 
                     </div>
-                        <div className='text-right border-2  '>
+                        <div className='text-right sm:text-center'>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.023087626716!2d75.87491107521937!3d26.775533976729168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc892b8f05399%3A0x43fbca7105eca800!2sJECRC%20University!5e0!3m2!1sen!2sin!4v1704211855400!5m2!1sen!2sin" width="450" height="220" loading="lazy"
                         allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
