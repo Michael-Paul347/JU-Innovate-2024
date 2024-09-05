@@ -9,7 +9,7 @@ export default function EventCardSports(props) {
         <p className='text-white text-center text-3xl' style={{fontFamily:"Shuri"}}>{props.title}</p>
         <Image className="p-2 lg:ml-0 mx-auto" src={props.image} alt={props.alias} width={400} height={100} />
         <button className='button-85 team2 text-xl border-2 px-2 rounded-3xl mb-4 my-8'>
-          <a href='https://rzp.io/l/upZWfSMfW'>
+          <a href='https://rzp.io/l/innov8'>
             Register Now
           </a>
         </button>

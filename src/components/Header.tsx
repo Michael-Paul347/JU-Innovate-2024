@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ onRegisterClick }) => { // Use HeaderPr
                             </div>
                             <div className='flex h-[80px] justify-center gap-10 text-center mb-10 lg:mt-0 -mt-20'>
                             <h1 className='text-white mb-12' style={{ fontSize: "50px" }}>
-  27<sup style={{ position: 'relative', top: '-20px' , fontSize:"30px"}}>th</sup> Sept - 28<sup style={{ position: 'relative', top: '-20px' }}>th</sup> Sept
+  27<sup style={{ position: 'relative', top: '-20px' , fontSize:"30px"}}>th</sup> Sept - 28<sup style={{ position: 'relative', top: '-20px', fontSize:"30px" }}>th</sup> Sept
 </h1>
 
                             </div>
