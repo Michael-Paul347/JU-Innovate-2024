@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapPinned } from 'lucide-react';
+import Link from 'next/link';
 const Footer = () => {
     return (
         <footer  className=" bg-blue-950 text-white md:foot2 flex items-center  flex-col py-10 px-8 ">
@@ -58,7 +59,7 @@ const Footer = () => {
                               Developed and Designed by:
                             </div>
                             <div className='text-white'>
-                            <a href='https://github.com/SANJAY-KUMAR-7'> Devansh Verma </a> || Michael Paul || Saksham 
+                            Devansh Verma || <Link href='https://github.com/Michael-Paul347'>Michael Paul </Link> || Saksham 
                             </div>
 
                     </div>

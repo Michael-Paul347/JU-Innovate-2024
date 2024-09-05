@@ -1,5 +1,6 @@
 import React from 'react'
 import { MapPinned } from 'lucide-react';
+import Link from 'next/link';
 import NewNavBar from '../components/NavBar'
 const Footer = () => {
     return (
@@ -60,7 +61,7 @@ const Footer = () => {
                               Developed and Designed by:
                             </div>
                             <div className='text-white'>
-                            <a href='https://github.com/SANJAY-KUMAR-7'> Sanjay Verma </a> || Michael Paul || Saksham
+                             Devansh Verma || <Link href='https://github.com/Michael-Paul347'>Michael Paul </Link>|| Saksham
                             </div>
 
                     </div>
