@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onRegisterClick }) => { // Use HeaderPr
                 <div className="relative inset-x-0 overflow-hidden">
 
                         <iframe
-                        className='absolute inset-0 w-full h-full object-cover lg:mt-0 -mt-44'
+                        className='absolute inset-0 w-full h-full object-cover lg:mt-100 -mt-44'
                             src="https://player.vimeo.com/video/1007351684?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1&background=1"
                            
                             allow="autoplay;"
