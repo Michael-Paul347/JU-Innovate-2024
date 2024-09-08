@@ -6,27 +6,38 @@ export default function Technical() {
 
   const events = [
     {
-      "alias": "Algo Vs Logic",
+      "alias": "CODE-O-MANIA",
       "image": 'https://i.postimg.cc/k4txbvYn/algovslogic.png',
       
-      "aboutEvent": "In this event, we take you on a trip back to the basics of any coding language: data structures and algorithms.",
+      "aboutEvent": ["This event will be a coding contest in which you will be judged on the basis of your knowledge of any coding language. This event will be conducted in two rounds.",
+        <br/>,
+      "ROUND 1: This will be an elimination round where there will be 20 MCQs which you need to solve in 30 min.",
+      <br/>,
+      "ROUND 2: This will be an entirely coding round in which you need to solve 4 questions in a span of 1.5 hrs using your desired language from the option provided by us."],
       "eventDetail": [
-        "Participation: Individual ||  Registration Fee: 450 Rs. Per Head "
+        // "Participation: Individual ||  Registration Fee: 450 Rs. Per Head "
       ],
 
+      "TeamSpecification":" ONLY 1 Participant",
+
       "rules": [
-        "This round comprises 20 multiple-choice questions, 20 minutes will be given to answer all the questions.",
-        "	This round will test your knowledge of basic concepts, data structures, and algorithms ,5 points will be awarded for each correct answer and 1 will be deducted for every wrong answer",
-        "	No points will be deducted for unattempted questions The top 20 participants will be qualified for round 2",
-        "	If any participant is found using unfair methods, he/she will be immediately disqualified."	,
-        "Round2",
-        "	This round comprises competitive programming questions, including different types of data structures such as queue, array, stack, etc.●	This round will have 5 questions 1 hour will be given to answer all the questions.",
-        "	This round will take place on a platform. Winners will be selected based on the number of questions solved, logic used, and speed.",
-        "	If any participant is found using unfair methods, he/she will be immediately disqualified."	,
-       
+      
+ ],
+
+ "regulations":[
+  "ROUND 1 :",
+  "This round will test your knowledge in basic concepts of the programming language.",
+  "Top 15 participant will be qualified for round 2.",
+  "5 points will be awarded for each correct answer and 1 will be deducted for every wrong answer. No points will be deducted for unattempted questions.",
+  "This round comprises basic programming questions. This round will have 10 questions which can be answered in either C++ or python.",
+  <br/>,
+  "ROUND 2 :",
+  "1 hour will be given to answer all the questions.",
+  "Winners will be selected on the basis of number of questions solved, logic used and speed.",
+  "If you are caught using any unfair means you will be straight away disqualified.",
       ],
       
-      "coordinators":{"name":'Pradhyuman-9664471324',"name2":'Kriti-9460911260'}, 
+      "coordinators":{"name":'Abhay Tiwari : 7084361698',"name2":'Jayshikha Shekhawat : 8854923966'}, 
       "schedule": {
         "day": "",
         "venue": "",
@@ -35,26 +46,44 @@ export default function Technical() {
       }
     },
     {
-      "name": "",
-      "alias": "Cyberbytes",
+      "name": "HACKATHON",
+      "alias": "HACKATHON",
       "image": 'https://i.postimg.cc/NFqR72ZR/cyberbytes.png',
-      "aboutEvent": "	A series of problems related to cyber security will be solved using various hacking and analysis tools.",
-      "eventDetail": ["Participation: Team (1-2) || Registration Fee: 900 Rs. Per Team "
+      "aboutEvent": ["	It is a 24-Hour event wherein a number of tracks will be provided to the participants and they have to build a solution around it. The primary goal of the hackathon is to foster creativity, innovation and development of new ideas.",
+        <br/>,
+        <br/>,
+        "TRACKS :",
+        <br/>,
+        "Healthcare",
+        <br/>, 
+        "Agriculture", 
+        <br/>,
+        "Education ",
+        <br/>,
+        "IOT(Internet of things)",
+        <br/>,
+        "Open Innovation",
+        
+      
+      ],
+      "TeamSpecification":" A team may consist of maximimum 4 participants and minimum 1 participants.",
+      "eventDetail": [""
      
       ],
       "rules": [
-        	"Participants must adhere to the specified reporting time and location.",
-	        "Internet access is permitted within designated time intervals for participants.",
-	         "The competition comprises 4 rounds, each featuring problems from specific domains.",
-	         "The Judging Committee may request explanations or proof of evidence for solutions.",
-	         "Correct solutions receive rewards, while incorrect explanations or solutions incur penalties.",
-	          "Rules for rewards and penalties are disclosed on the event day.",
-	          "Team leaders, elected from each team, are the sole representatives allowed to explain and present solutions.",
-            "Participants are responsible for their laptops, pen drives, storage drives, and power cords, with the university and event coordinators not accountable for connectivity and power issues."
-        
+        	
       ],
+      "regulations":[
+        "Top 10 teams will showcase their prototypes developed and will get a chance to showcase their prototype in front of all the judges and the developers. Each team will get a maximum of 7 minutes to present their prototype in front of the judges. The judges will be asking questions about the prototype so developed If any team is found copying a prototype that has already been published or any unfair means, the team will be disqualified on the spot. Rules are subjected to change prior to the briefing session. Decision made by the judges will be final.",
+          <br/>,
+        "JUDGING CRITERIA",
+        "The participants will be judged on the basis of their delivery, structure, evidence, creativity on their prototype model. There will also be a Q/A session with the judges in which the prototype will be presented and related question will be asked.",
+        "Top 10 teams will be given 10 minutes to present in-front of the judges out of which 7 minutes will be for presenting the prototype and 3 minutes for the presentation",
+,
+      ],
+      
      
-      "coordinators":{"name":'Anshul:951159308',"name2":'Harsh:7850849081'},
+      "coordinators":{"name":'Rahul Singhal : 6375996411',"name2":'Leena : 6376088760'},
       "schedule": {
         "day": "",
         "venue": "",
@@ -63,25 +92,26 @@ export default function Technical() {
     },
     
     {
-      "name": "",
-      "alias": "Mopix",
+      "name": "GRAPHICON",
+      "alias": "GRAPHICON",
       "image": 'https://i.postimg.cc/zXkTKB7R/mopix.png',
-      "aboutEvent": "This is a Website Design event in which the students will be asked to design a web-based interface for a fictional organization. It aims to highlight the creative and programming capabilities of the students. The work will be judged based on (with weightage Site Navigation, User-friendliness (40%) Presentation, Color Scheme, Attractiveness (35%) Presentation, Color Scheme, Attractiveness (35%) Cross-browser & multi-resolution stability (20%)",
-
+      "aboutEvent": "It is an event which is centered around prompt designing using various Ai tools available. Designing the prompt involves formulating clear questions or statements that guide the AI’s responses towards desired outcomes.",
+      "TeamSpecification":" Only single participation is allowed ",
       "eventDetail": [ 
-        "Participation: Team (1-2) || Registration Fee: 900 Rs. Per Team ",
+        "",
       ],
       "rules": [
-        "Registration: Online & On the Spot No external reference is allowed.",
-	      "The judge's decision will be final and binding.",
-        "The event will be conducted in two rounds:",
-        	"Conducted on: Computers (Using Simulators) Duration: 20 min No. & type of questions: 30 MCQ Distribution Of Questions : (70%) HTML and CSS + (25%) JavaScript + (5%)Flash.",
-          "The selected teams will have to design a website.",
-          "	Duration: 2 hrs",
-          "	All the work is to be done using programming and scripting languages. You can use any preferred language mentioned below:",
-          "Certificate of excellence will be awarded to the top 2 winners.", 
+        "The designs must not contain any abusive language, racial slurs or hateful remarks against any religion, cast or community.",
+	      "Softwares like Adobe Firefly, Stable Diffusion, Dall-Eetc. can be used.",
+        "No external reference is allowed, only the given set of resources must be used.",
+        	"The event manager reserves the right to disqualify any team if any section of the content is deemed inappropriate.",
+          "	In case of a tie, preference will be given to the criteria mentioned above in decreasing order of weightage.",
+          "	The decision made by the judges would be final and binding.  ", 
       ],
-     
+      "regulations":[
+
+      ],
+      
         
          
         
@@ -93,72 +123,84 @@ export default function Technical() {
         "time": ""
       }
     },
-    {
-      "name": "",
-      "alias": "Codehunt",
-      "image": 'https://i.postimg.cc/nh0YbzQt/codehunt.png',
-      "aboutEvent": " In this event, we test your grasp of programming language through a series of questions about coding and finding an output. It is a competitive Timebound game that consists of 4 knockout levels. You have to solve a About the Event at each level using your desired programming language and reach an output. After each round, you will receive a clue of where to find your next About the Event. The level of questions after each round will increase. ",
-      "eventDetail": ["Participation: Team (2-4)|| Registration Fee: 1600 Rs. Per Team"],
-      "rules": [
-        "	Each team comprises one player solving the code and another retrieving an envelope from the specified location.",
-        "Envelope seals must be opened in front of the coordinator; a broken seal results in disqualification.",
-        "The judge's decision is final, non-negotiable, and not open to review or appeal.",
-        "Participants can code in any language and on any compiler of their choice.",
-        	"Use of unfair means, including Google or AI to steal or copy code, leads to disqualification.",
-        	"Rules are subject to change before the final briefing session.",
-        	"Code solvers and envelope retrievers make up the team, each with distinct roles.",
-        	"Strict adherence to envelope seal integrity, finality of judge's decisions, coding language/compiler flexibility, and fair play is crucial. Rules may be revised before the final briefing.",
+    // {
+    //   "name": "",
+    //   "alias": "Codehunt",
+    //   "image": 'https://i.postimg.cc/nh0YbzQt/codehunt.png',
+    //   "aboutEvent": " In this event, we test your grasp of programming language through a series of questions about coding and finding an output. It is a competitive Timebound game that consists of 4 knockout levels. You have to solve a About the Event at each level using your desired programming language and reach an output. After each round, you will receive a clue of where to find your next About the Event. The level of questions after each round will increase. ",
+    //   "TeamSpecification":" ONLY 1 Participant",
+    //   "eventDetail": ["Participation: Team (2-4)|| Registration Fee: 1600 Rs. Per Team"],
+    //   "rules": [
+    //     "	Each team comprises one player solving the code and another retrieving an envelope from the specified location.",
+    //     "Envelope seals must be opened in front of the coordinator; a broken seal results in disqualification.",
+    //     "The judge's decision is final, non-negotiable, and not open to review or appeal.",
+    //     "Participants can code in any language and on any compiler of their choice.",
+    //     	"Use of unfair means, including Google or AI to steal or copy code, leads to disqualification.",
+    //     	"Rules are subject to change before the final briefing session.",
+    //     	"Code solvers and envelope retrievers make up the team, each with distinct roles.",
+    //     	"Strict adherence to envelope seal integrity, finality of judge's decisions, coding language/compiler flexibility, and fair play is crucial. Rules may be revised before the final briefing.",
         
-      ],
+    //   ],
+    //   "regulations":[
+    //     "QUALIFICATION ROUND",
+    //     "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
+    //   ],
       
-      "coordinators": {
+      
+    //   "coordinators": {
         
-           "name": "Ayushi:7014881298",  
-           "name2": "Sneha:8000254863", 
-      },
-      "schedule": {
-        "day": "",
-        "venue": "",
-        "time": ""
-      }
-    },
-    {
-      "name": "",
-      "alias": "Robowar-Elite",
-      "image": 'https://i.postimg.cc/SQ69bswt/robowar-elite.png',
-      "aboutEvent": "The main aim is to design a machine that can fight one another as well as maintain to maintain the weight of the bot. It will be played on a knock-out basis. The weight of the bot should not exceed 15 Kg wired or wireless robot.  ArenaDimensions:  Total arena dimensions: 20X20 feet,Playing arena dimensions: 17X17 feet, Knock-out arena dimensions: 3X3 feet The base of the arena is made up of a metal sheet of width 5 mm,The walls of the arena will be made up of polycarbonate film of width 6 mm.",
-      "eventDetail": [
-        "Participation: Team (1-6) ||   Registration Fee: 2000 Rs. Per Team ",
+    //        "name": "Ayushi:7014881298",  
+    //        "name2": "Sneha:8000254863", 
+    //   },
+    //   "schedule": {
+    //     "day": "",
+    //     "venue": "",
+    //     "time": ""
+    //   }
+    // },
+    // {
+    //   "name": "",
+    //   "alias": "Robowar-Elite",
+    //   "image": 'https://i.postimg.cc/SQ69bswt/robowar-elite.png',
+    //   "aboutEvent": "The main aim is to design a machine that can fight one another as well as maintain to maintain the weight of the bot. It will be played on a knock-out basis. The weight of the bot should not exceed 15 Kg wired or wireless robot.  ArenaDimensions:  Total arena dimensions: 20X20 feet,Playing arena dimensions: 17X17 feet, Knock-out arena dimensions: 3X3 feet The base of the arena is made up of a metal sheet of width 5 mm,The walls of the arena will be made up of polycarbonate film of width 6 mm.",
+    //   "TeamSpecification":" ONLY 1 Participant",
+    //   "eventDetail": [
+    //     "Participation: Team (1-6) ||   Registration Fee: 2000 Rs. Per Team ",
       
         
-      ],
-      "rules": [
-        	"The competition will be played on a knock-out basis.",
-	        "The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically",
-	        "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
-	        "No AC power supply will be provided for the bots, participants are requested to use only a DC power supply.",
-	        "The machine would be checked for its safety before the competition and would be Discarded if found unsafe for other participants and spectators",
-	        "The organizers reserve the right to change any or all of the above rules as they deem fit",
-         "	Changes in rules, if any will be highlighted on the website and notified to the registered teams.",
-       	"Violation of any of the above rules will lead to disqualification.",
+    //   ],
+    //   "rules": [
+    //     	"The competition will be played on a knock-out basis.",
+	  //       "The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically",
+	  //       "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
+	  //       "No AC power supply will be provided for the bots, participants are requested to use only a DC power supply.",
+	  //       "The machine would be checked for its safety before the competition and would be Discarded if found unsafe for other participants and spectators",
+	  //       "The organizers reserve the right to change any or all of the above rules as they deem fit",
+    //      "	Changes in rules, if any will be highlighted on the website and notified to the registered teams.",
+    //    	"Violation of any of the above rules will lead to disqualification.",
 
         
-      ],
-    
-      "coordinators": {
+    //   ],
+    //   "regulations":[
+    //     "QUALIFICATION ROUND",
+    //     "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
+    //   ],
+      
+
+    //   "coordinators": {
        
-           "name": "Geetanjali:9311675823" ,
-           "name2": "Charvi:9739934322" 
+    //        "name": "Geetanjali:9311675823" ,
+    //        "name2": "Charvi:9739934322" 
         
       
         
-      },
-      "schedule": {
-        "day": "",
-        "venue": "",
-        "time": ""
-      }
-    },
+    //   },
+    //   "schedule": {
+    //     "day": "",
+    //     "venue": "",
+    //     "time": ""
+    //   }
+    // },
    
   ]
   const handleEventsClick = () => {
@@ -192,8 +234,10 @@ const handleAboutClick = () => {
               time={element.schedule.time}
               venue={element.schedule.venue}
               about={element.aboutEvent}
+              team ={element.TeamSpecification}
               details={element.eventDetail}
               rules={element.rules}
+              regulations={element.regulations}
               coordinator1={element.coordinators.name}
               coordinator2={element.coordinators.name2}
             />

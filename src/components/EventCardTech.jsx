@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import EventDetails from '../components/EventDetailsModal'
+import EventDetails from './EventDetailsModal'
 import Image from 'next/image';
 export default function EventsCardCultural(props) {
     const [showModal,setShowModal]=useState(false)
@@ -22,8 +22,10 @@ export default function EventsCardCultural(props) {
               time={props.time}
               venue={props.venue}
               about={props.about}
+              team ={props.TeamSpecification}
               details={props.details}
               rules={props.rules}
+              regulations={props  .regulations}
               coordinator1={props.coordinator1}
               coordinator2={props.coordinator2}
             />

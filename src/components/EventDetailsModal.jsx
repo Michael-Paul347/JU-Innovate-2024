@@ -12,16 +12,24 @@ function EventDetails(props) {
           <div className='text-left h-[200px] py-2'>
             <h1 className='text-2xl text-white' style={{fontFamily:"Shuri"}}>About Event:</h1>
             <p>{props.about}</p>
+            <br/>
+            <h1 className='text-2xl text-white' style={{fontFamily:"Shuri"}}>Team Specification:</h1>
+            <p>{props.team}</p>
           </div>
         );
       case 'RULES':
         return (
           <div className='text-left h-[200px] py-2'>
-            <h1 className='text-white text-2xl' style={{fontFamily:"Shuri"}}>RULES:</h1>
-            {props.rules.map((rule, index) => (
-              <p key={index}>{index + 1}. {rule}</p>
-            ))}
-          </div>
+          <h1 className='text-white text-2xl' style={{fontFamily: "Shuri"}}>RULES:</h1>
+          {props.rules.map((rule, index) => (
+            <p key={index}>{index + 1}. {rule}</p>
+          ))}
+          {props.rules.length > 0 && <br />} {/* Only render <br /> if there are rules */}
+          {props.regulations.map((regulation, index) => (
+            <p key={index}>{regulation}</p>
+          ))}
+        </div>
+        
         );
       case 'CONTACT':
         return (
@@ -30,9 +38,20 @@ function EventDetails(props) {
             <div className='flex flex-col py-2'>
               <h2 className='text-xl'>Event Coordinators:</h2>
               <div className='flex gap-16'>
-                <div className='flex gap-2'><Phone color='white' /> <p className='text-lg'>{props.coordinator1}</p></div>
-                <div className='flex gap-2'><Phone color='white' /> <p className='text-lg'>{props.coordinator2}</p></div>
-              </div>
+  <div className='flex gap-2'>
+    <Phone color='white' />
+    <p className='text-lg'>{props.coordinator1}</p>
+  </div>
+  <div className='flex gap-2'>
+    <Phone color='white' />
+    <p className='text-lg'>{props.coordinator2}</p>
+  </div>
+  <div className='flex gap-2'>
+    {props.coordinator3 && <Phone color='white' />}
+    <p className='text-lg'>{props.coordinator3}</p>
+  </div>
+</div>
+
             </div>
           </div>
         );
@@ -110,33 +129,3 @@ function EventDetails(props) {
 }
 
 export default EventDetails;
-
-{/* <div className="group">
-<div className="flex justify-center items-center gap-2">
-  <Navbar.Link href="" className="text-white text-2xl">
-    Events  
-  </Navbar.Link>
-  <ChevronDown className="text-white" />
-</div>
-  <div className="invisible dropdown-content absolute px-4 backdrop-blur-sm min-w-200px md:group-hover:visible md:hover:visible">
-    <div className="flex gap-1">
-      <ul>
-        <li>
-          <Navbar.Link href="/sports" className="text-white text-xl">
-            Sports
-          </Navbar.Link>
-        </li>
-        <li>
-          <Navbar.Link href="/cultural" className="text-white text-xl">
-            Cultural
-          </Navbar.Link>
-        </li>
-        <li>
-          <Navbar.Link href="/technical" className="text-white text-xl">
-            Technical
-          </Navbar.Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div> */}

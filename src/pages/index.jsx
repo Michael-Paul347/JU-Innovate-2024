@@ -86,7 +86,7 @@ const scrollToSection = (sectionRef) => {
              
             <div className='lg:ml-0 ml-80 -mt-40 lg:-mt-10'>
             <Image
-                src="/VEGETA.gif"
+                src="https://s11.gifyu.com/images/S1QI1.gif"
                 alt="test"
                 width={300} // Width for large screens
                 height={300} // Height for large screens

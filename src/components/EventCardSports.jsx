@@ -22,10 +22,13 @@ export default function EventCardSports(props) {
           time={props.time}
           venue={props.venue}
           about={props.about}
+          team ={props.team}
           details={props.details}
           rules={props.rules}
+          regulations={props.regulations}
           coordinator1={props.coordinator1}
           coordinator2={props.coordinator2}
+          coordinator3={props.coordinator3}
         />
       </div>
     </div>
