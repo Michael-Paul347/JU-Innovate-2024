@@ -22,7 +22,7 @@ export default function EventsCardCultural(props) {
               time={props.time}
               venue={props.venue}
               about={props.about}
-              team ={props.TeamSpecification}
+              team ={props.team}
               details={props.details}
               rules={props.rules}
               regulations={props  .regulations}

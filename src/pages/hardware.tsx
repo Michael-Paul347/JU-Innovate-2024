@@ -1,5 +1,5 @@
 
-import EventCardCultural from '../components/EventCardTech'
+import EventCardCultural from '../components/EventCardHardware'
 import React from 'react'
 
 import NewNavBar from '../components/NavBar.jsx'
@@ -12,11 +12,13 @@ export default function Technical() {
   
       "alias": "ROBOWAR(15 KGS)",
       "image": 'https://i.postimg.cc/R0XyN467/mono-strokes.png',
-      "TeamSpecification":" ONLY 1 Participant",
       "aboutEvent":": The main aim is to design a machine that can fight one another as well as  to maintain the weight of the bot. It will be played on a knock-out basis. The weight of the bot should not exceed 15 Kg wireless robot.",
+      
       "eventDetail": [
        ""
       ],
+
+      "TeamSpecification":" ONLY 1 Participant",
       "rules": [
         "	The competition will be played on a knock-out basis. The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically.",
         "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
