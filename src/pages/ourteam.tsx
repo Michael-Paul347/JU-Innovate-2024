@@ -9,193 +9,131 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const teamDetails = [
     {
-        name: 'Devansh',
-        image: 'https://i.postimg.cc/W1zVD8WH/RAKSHITA-PARIHAR.png',
-        year: "Technical",
+        name: 'Arpit Sharma',
+        image: 'https://i.postimg.cc/0N0XYPxB/Arpit-Sharma.png',
+        year: "Technical Secretary",
        
 
     },
     {
-        name: 'Name 2',
-        image: 'https://i.postimg.cc/MZYJdNgL/NANDINI-SHARMA.png',
-         year: "Technical",
+        name: 'Dhruv Tomar',
+        image: 'https://i.postimg.cc/HnVS1MMq/Dhruv-Tomar.png',
+         year: "Software Head",
        
 
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/x8ffxGvg/ARPIT-SHARMA.png',
-         year: "",
+        name: 'Devansh Verma',
+        image: 'https://i.postimg.cc/43gFHmCc/Devansh-Verma.png',
+         year: "E-Sports Head",
        
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/brhVQYzv/ASHMIT-SINGH.png',
-         year: "",
+        name: 'Garvit Raj Bhati',
+        image: 'https://i.postimg.cc/BZVYch94/Garvit-Raj-Bhati.png',
+         year: "Hardware Head",
 
       
 
     },
     {
-        name: 'Name 3',
-        image: 'https://i.postimg.cc/TYHqx2ZW/DAKSH-NAGAR.png',
-       year: "3",
+        name: 'Keshav Khandelwal',
+        image: 'https://i.postimg.cc/15VWWps6/Keshav-Khandelwal.png',
+       year: "Software Head",
 
        
     },
     {
-        name: 'Name 4',
-        image: 'https://i.postimg.cc/vHRxtgFh/DHRUV-SINGH.png',
-         year: "4",
+        name: 'Mukund Verma',
+        image: 'https://i.postimg.cc/Z5rwm495/Mukund-Verma.png',
+         year: "E-Sports Head",
        
 
     },
 
   
     {
-        name: '',
-        image: 'https://i.postimg.cc/rwB1dnyV/AWEZ-KHAN.png',
-       year: "",
+        name: 'Amit Jain',
+        image: 'https://i.postimg.cc/qvn572F0/Amit-Jain.png',
+       year: "Hardware Head",
 
       
 
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/qMYbLGBY/SHRISHTI-MISHRA.png',
-       year: "",
+        name: 'Dhruvi Vaid',
+        image: 'https://i.postimg.cc/HxSSNzr0/Dhruvi-Vaid.png',
+       year: "PR & Collaboration Head",
 
       
 
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/J0YTSNNs/SAKSHAM-TAMBI.png',
-       year: "",
+        name: 'Isha Soni',
+        image: 'https://i.postimg.cc/x8h6fdyc/Isha-Soni.png',
+       year: "PR & Collaboration Head",
 
       
 
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/FsHDmLqp/SOHAN-BENIWAL.png',
-       year: "",
+        name: 'Nandini Sharma',
+        image: 'https://i.postimg.cc/PqyKLyQG/Nandini-Sharma.png',
+       year: "Logistics Head",
 
         
     },
     {
-        name: '',
-        image: 'https://i.postimg.cc/52KxpTQJ/RAJSHEKAR-SINGH.png',
-       year: "",
+        name: 'Madhusudhan',
+        image: 'https://i.postimg.cc/0ygVhby4/Madhusudhan-Shrivastava.png',
+       year: "Logistics Head",
 
     
     },
   
     {
-        name: '',
-        image: 'https://i.postimg.cc/DzQXS7Y6/ADITYA-JAIN.png',
-       year: "",
+        name: 'Daksh Nagar',
+        image: 'https://i.postimg.cc/tTRSDw4C/Daksh-Nagar.png',
+       year: "Media Head",
 
 
     },
 
    
     {
-        name: '',
-        image: 'https://i.postimg.cc/Hx491wgp/ISHA-SONI.png',
-       year: "",
+        name: 'Saksham Saraogi',
+        image: 'https://i.postimg.cc/Y9y3RSPb/Saksham-Saraogi.png',
+       year: "Graphics Head",
 
         
 
     },
   
     {
-        name: '',
-        image: 'https://i.postimg.cc/LsZMDXMk/SAJAL-BATWARA.png',
-       year: "",
+        name: 'Piyush Bhagchandani',
+        image: 'https://i.postimg.cc/SKkDN387/Piyush-Bhagchandani.png',
+       year: "Graphics Head",
 
       
 
     },
 
     {
-        name: '',
-        image: 'https://i.postimg.cc/gkB57Wsg/SAJAL-GOYAL.png',
-       year: "",
+        name: 'Priyanshi Bhardwaj',
+        image: 'https://i.postimg.cc/hvz05BWg/Priyanshi-Bhardwaj.png',
+       year: "Operations Head",
 
        
 
     },
     {
-        name: '',
-        image:'https://i.postimg.cc/PqBdnDMF/NAVIN-JAIN.png',
-       year: "",
+        name: 'Pradyuman',
+        image:'https://i.postimg.cc/QtMmc7fF/Pradyuman-Shrivastava.png',
+       year: "Operations Head",
 
        
 
     },
-    {
-        name: '',
-        image: 'https://i.postimg.cc/8z6ynrjC/SAKSHI-SRIVASTAVA.png',
-       year: "",
-
-       
-    },
-    {
-        name: '',
-        image:'https://i.postimg.cc/mgz3gfsp/CHAITANYA-MEHTA.png' ,
-       year: "",
-
-       
-    },
-    
-    {
-        name: '',
-        image:'https://i.postimg.cc/y6D02PNJ/Dhruv-Tomar.png' ,
-       year: "",
-
-       
-    },
-    {
-        name: '',
-        image:'https://i.postimg.cc/MGHkTPZ1/Dhruvi-Vaid1.png' ,
-       year: "",
-
-       
-    },
-
-   
-    {
-        name: '',
-        image:'https://i.postimg.cc/W4XYCr3f/Charvi-Agarwal.png' ,
-       year: "",
-
-       
-    },
-    {
-        name: '',
-        image:'https://i.postimg.cc/XY6PC4mx/Devansh-Verma.png' ,
-       year: "",
-
-       
-    },
-   
-    {
-        name: '',
-        image:'https://i.postimg.cc/qRFbMT2s/Akshat-Pratap-Singh.png' ,
-       year: "",
-
-       
-    },
-    {
-        name: '',
-        image:'https://i.postimg.cc/L5ZyJbVr/Nihar-Patel.png' ,
-       year: "",
-
-       
-    },
-    
-   
 
 ]
 
