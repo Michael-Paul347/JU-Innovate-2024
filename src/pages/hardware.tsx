@@ -18,7 +18,7 @@ export default function Technical() {
        ""
       ],
 
-      "TeamSpecification":" ONLY 1 Participant",
+      "TeamSpecification":" A team may consist of a maximum of 6 participants and a minimum of 1 participant. Students from different educational institutes can form a team.",
       "rules": [
         "	The competition will be played on a knock-out basis. The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically.",
         "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
@@ -80,8 +80,8 @@ export default function Technical() {
    
     
     {
-      "name": "ROBOWAR(8KG)",
-      "alias": "ROBOWAR(8KG)",
+      "name": "ROBO-SOCCER",
+      "alias": "ROBO-SOCCER(8KG)",
       "image": 'https://i.postimg.cc/021vg5pj/rhytmic-relay-poetry.png',
       "aboutEvent": "Design a manually controlled robot wireless that can play soccer.",
       "TeamSpecification":" A team may consist of a maximum of 6 participants and a minimum of 1 participant. Students from different educational institutes can form a team.",

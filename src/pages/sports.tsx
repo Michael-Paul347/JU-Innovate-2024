@@ -110,7 +110,7 @@ export default function Technical() {
 "All matches except for the finals will be best-of-three games. The finals will be best-of-five games.",
       ],
       "eventDetail": [
-        "450/player||Members: 1player"
+        ""
       ],
       "rules": [
         "If players choose not to rematch on the same stage, the next stage must be selected randomly.",

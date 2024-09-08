@@ -123,84 +123,84 @@ export default function Technical() {
         "time": ""
       }
     },
-    // {
-    //   "name": "",
-    //   "alias": "Codehunt",
-    //   "image": 'https://i.postimg.cc/nh0YbzQt/codehunt.png',
-    //   "aboutEvent": " In this event, we test your grasp of programming language through a series of questions about coding and finding an output. It is a competitive Timebound game that consists of 4 knockout levels. You have to solve a About the Event at each level using your desired programming language and reach an output. After each round, you will receive a clue of where to find your next About the Event. The level of questions after each round will increase. ",
-    //   "TeamSpecification":" ONLY 1 Participant",
-    //   "eventDetail": ["Participation: Team (2-4)|| Registration Fee: 1600 Rs. Per Team"],
-    //   "rules": [
-    //     "	Each team comprises one player solving the code and another retrieving an envelope from the specified location.",
-    //     "Envelope seals must be opened in front of the coordinator; a broken seal results in disqualification.",
-    //     "The judge's decision is final, non-negotiable, and not open to review or appeal.",
-    //     "Participants can code in any language and on any compiler of their choice.",
-    //     	"Use of unfair means, including Google or AI to steal or copy code, leads to disqualification.",
-    //     	"Rules are subject to change before the final briefing session.",
-    //     	"Code solvers and envelope retrievers make up the team, each with distinct roles.",
-    //     	"Strict adherence to envelope seal integrity, finality of judge's decisions, coding language/compiler flexibility, and fair play is crucial. Rules may be revised before the final briefing.",
+    {
+      "name": "",
+      "alias": "Codehunt",
+      "image": 'https://i.postimg.cc/nh0YbzQt/codehunt.png',
+      "aboutEvent": " In this event, we test your grasp of programming language through a series of questions about coding and finding an output. It is a competitive Timebound game that consists of 4 knockout levels. You have to solve a About the Event at each level using your desired programming language and reach an output. After each round, you will receive a clue of where to find your next About the Event. The level of questions after each round will increase. ",
+      "TeamSpecification":" ONLY 1 Participant",
+      "eventDetail": [""],
+      "rules": [
+        "	Each team comprises one player solving the code and another retrieving an envelope from the specified location.",
+        "Envelope seals must be opened in front of the coordinator; a broken seal results in disqualification.",
+        "The judge's decision is final, non-negotiable, and not open to review or appeal.",
+        "Participants can code in any language and on any compiler of their choice.",
+        	"Use of unfair means, including Google or AI to steal or copy code, leads to disqualification.",
+        	"Rules are subject to change before the final briefing session.",
+        	"Code solvers and envelope retrievers make up the team, each with distinct roles.",
+        	"Strict adherence to envelope seal integrity, finality of judge's decisions, coding language/compiler flexibility, and fair play is crucial. Rules may be revised before the final briefing.",
         
-    //   ],
-    //   "regulations":[
-    //     "QUALIFICATION ROUND",
-    //     "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
-    //   ],
+      ],
+      "regulations":[
+        "QUALIFICATION ROUND",
+        "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
+      ],
       
       
-    //   "coordinators": {
+      "coordinators": {
         
-    //        "name": "Ayushi:7014881298",  
-    //        "name2": "Sneha:8000254863", 
-    //   },
-    //   "schedule": {
-    //     "day": "",
-    //     "venue": "",
-    //     "time": ""
-    //   }
-    // },
-    // {
-    //   "name": "",
-    //   "alias": "Robowar-Elite",
-    //   "image": 'https://i.postimg.cc/SQ69bswt/robowar-elite.png',
-    //   "aboutEvent": "The main aim is to design a machine that can fight one another as well as maintain to maintain the weight of the bot. It will be played on a knock-out basis. The weight of the bot should not exceed 15 Kg wired or wireless robot.  ArenaDimensions:  Total arena dimensions: 20X20 feet,Playing arena dimensions: 17X17 feet, Knock-out arena dimensions: 3X3 feet The base of the arena is made up of a metal sheet of width 5 mm,The walls of the arena will be made up of polycarbonate film of width 6 mm.",
-    //   "TeamSpecification":" ONLY 1 Participant",
-    //   "eventDetail": [
-    //     "Participation: Team (1-6) ||   Registration Fee: 2000 Rs. Per Team ",
+           "name": "Ayushi:7014881298",  
+           "name2": "Sneha:8000254863", 
+      },
+      "schedule": {
+        "day": "",
+        "venue": "",
+        "time": ""
+      }
+    },
+    {
+      "name": "",
+      "alias": "GEN-AI QUIZ",
+      "image": 'https://i.postimg.cc/SQ69bswt/robowar-elite.png',
+      "aboutEvent": "The main aim is to design a machine that can fight one another as well as maintain to maintain the weight of the bot. It will be played on a knock-out basis. The weight of the bot should not exceed 15 Kg wired or wireless robot.  ArenaDimensions:  Total arena dimensions: 20X20 feet,Playing arena dimensions: 17X17 feet, Knock-out arena dimensions: 3X3 feet The base of the arena is made up of a metal sheet of width 5 mm,The walls of the arena will be made up of polycarbonate film of width 6 mm.",
+      "TeamSpecification":" ONLY 1 Participant",
+      "eventDetail": [
+        "",
       
         
-    //   ],
-    //   "rules": [
-    //     	"The competition will be played on a knock-out basis.",
-	  //       "The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically",
-	  //       "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
-	  //       "No AC power supply will be provided for the bots, participants are requested to use only a DC power supply.",
-	  //       "The machine would be checked for its safety before the competition and would be Discarded if found unsafe for other participants and spectators",
-	  //       "The organizers reserve the right to change any or all of the above rules as they deem fit",
-    //      "	Changes in rules, if any will be highlighted on the website and notified to the registered teams.",
-    //    	"Violation of any of the above rules will lead to disqualification.",
+      ],
+      "rules": [
+        	"The competition will be played on a knock-out basis.",
+	        "The maximum duration of each round will be 2 minutes. Any team that is not ready at the time specified will be disqualified from the competition automatically",
+	        "If the bot is unable to displace from its position for more than 30 sec then the bot would be disqualified from the particular round.",
+	        "No AC power supply will be provided for the bots, participants are requested to use only a DC power supply.",
+	        "The machine would be checked for its safety before the competition and would be Discarded if found unsafe for other participants and spectators",
+	        "The organizers reserve the right to change any or all of the above rules as they deem fit",
+         "	Changes in rules, if any will be highlighted on the website and notified to the registered teams.",
+       	"Violation of any of the above rules will lead to disqualification.",
 
         
-    //   ],
-    //   "regulations":[
-    //     "QUALIFICATION ROUND",
-    //     "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
-    //   ],
+      ],
+      "regulations":[
+        "QUALIFICATION ROUND",
+        "TEAMS HAVE TO QUALIFY THE ONLINE ROUNDS THAT WILL BE 7 DAYS PRIER THE LAN EVENT. TEAMS WILL BE INFORMED A WEEK PRIER FROM THE QUALIFICATON ROUND. ONLY QUALIFIED TEAM WILL BE PERMITTED TO SIT IN THE MAIN LAN EVENT.",
+      ],
       
 
-    //   "coordinators": {
+      "coordinators": {
        
-    //        "name": "Geetanjali:9311675823" ,
-    //        "name2": "Charvi:9739934322" 
+           "name": "Geetanjali:9311675823" ,
+           "name2": "Charvi:9739934322" 
         
       
         
-    //   },
-    //   "schedule": {
-    //     "day": "",
-    //     "venue": "",
-    //     "time": ""
-    //   }
-    // },
+      },
+      "schedule": {
+        "day": "",
+        "venue": "",
+        "time": ""
+      }
+    },
    
   ]
   const handleEventsClick = () => {
@@ -222,7 +222,7 @@ const handleAboutClick = () => {
        <NewNavBar onEventsClick={handleEventsClick} onAboutClick={handleAboutClick}  />
       <div className='flex flex-col text-center justify-center gap-10 mt-6'>
         <div className='text-white text-6xl'>
-          <p className='m-2' style={{fontFamily:"Shuri", letterSpacing:"5px"}}>TECHNICAL</p>
+          <p className='m-2' style={{fontFamily:"Shuri", letterSpacing:"5px"}}>SOFTWARE</p>
         </div>
         <div className='flex flex-col mx-16 md:grid gap-10'>
           {events.map((element, index) => (
